@@ -31,11 +31,11 @@ def extract_sweep(buffer):
         The 1st byte of dataframe is the index byte, going 
         from 0xA0 (packet 0, readings 0 to 3)
         to 0xF9 (packet 89, readings 356 to 359).
+        The 6'th bit of byte 1 is a warning when the reported strength is greatly inferior to what is expected at this distance.
         The 2nd and 3rd byte contain the speed, a two-byte information, little-endian.
         It represents the speed, in 64th of RPM (aka value in RPM represented
         in fixed point, with 6 bits used for the decimal part).
-        The 6'th bit of byte 1 is a warning when the reported strength is greatly inferior to what is expected at this distance.
-        Then the 4th to the 7th are a range (in mm) + intensity reading, also 8th - 11th, 12th-15th, 16th-19th.
+        Then the 4th to the 7th bytes are one range (in mm) + intensity reading, also 8th - 11th, 12th-15th, 16th-19th.
         The last two bytes (20th,21st) are a CRC over the dataframe.
     """
     buf_len = len(buffer)
