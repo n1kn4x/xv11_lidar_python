@@ -40,9 +40,10 @@ Run the driver using a different port and frame_id
 If all goes well this will produce messages of type LaserScan on topic /scan.
 
 
-## Credits
-Credit and many thanks to:
+## :heart: Credits and many thanks to
 
 [https://wiki.recessim.com/view/Xiaomi_Roborock_LIDAR](https://wiki.recessim.com/view/Xiaomi_Roborock_LIDAR)
+
 [https://wiki.recessim.com/view/Neato_XV-11#LIDAR_Sensor](https://wiki.recessim.com/view/Neato_XV-11#LIDAR_Sensor)
+
 [https://github.com/mjstn/xv_11_driver](https://github.com/mjstn/xv_11_driver)
