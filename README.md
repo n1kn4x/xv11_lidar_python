@@ -31,10 +31,10 @@ The following ROS2 parameters are defaulted as below and can be set using parame
 
 Run the driver and it should generate scan data on topic /scan
 
-    ros2 run xv_11_driver xv_11_driver
+    ros2 run xv11_lidar_python xv11_lidar
 
 Run the driver using a different port and frame_id
 
-    ros2 run xv_11_driver xv_11_driver --ros-args -p -p port:=/dev/ttyAMA0 -p frame_id:=xiaomi_lidar
+    ros2 run xv11_lidar_python xv11_lidar --ros-args -p -p port:=/dev/ttyAMA0 -p frame_id:=xiaomi_lidar
 
 If all goes well this will produce messages of type LaserScan on topic /scan.
