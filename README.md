@@ -38,3 +38,11 @@ Run the driver using a different port and frame_id
     ros2 run xv11_lidar_python xv11_lidar --ros-args -p -p port:=/dev/ttyAMA0 -p frame_id:=xiaomi_lidar
 
 If all goes well this will produce messages of type LaserScan on topic /scan.
+
+
+## Credits
+Credit and many thanks to:
+
+[https://wiki.recessim.com/view/Xiaomi_Roborock_LIDAR](https://wiki.recessim.com/view/Xiaomi_Roborock_LIDAR)
+[https://wiki.recessim.com/view/Neato_XV-11#LIDAR_Sensor](https://wiki.recessim.com/view/Neato_XV-11#LIDAR_Sensor)
+[https://github.com/mjstn/xv_11_driver](https://github.com/mjstn/xv_11_driver)
