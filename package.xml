@@ -5,7 +5,7 @@
   <version>0.0.1</version>
   <description>A python driver for the lidar sensors that use the xv_11 firmware version 2, which are prominent in vacuum cleaning robots.</description>
   <maintainer email="niklas@pirnay.com">niklas</maintainer>
-  <license>TODO: License declaration</license>
+  <license>MIT License</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
