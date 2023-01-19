@@ -3,7 +3,6 @@
 import serial
 import rclpy
 from rclpy.node import Node
-from rclpy.time import Time
 from sensor_msgs.msg import LaserScan
 
 PI = 3.14159265
