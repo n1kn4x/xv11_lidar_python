@@ -10,7 +10,7 @@ The common pinout of these chinese lidars are usually as follows:
 <img src="resource/common_pinout.png" alt="drawing" width="400"/>
 
 It is confirmed to be for working for Xiaomi Lidars (S7, S70, S75) and probably many more.
-Let me know if it worked for you model, so the list can be updated!
+Let me know if it worked for your model, so the list can be updated!
 
 ## Install
 Place this repository in your colcon_ws workspace
