@@ -47,3 +47,5 @@ If all goes well this will produce messages of type LaserScan on topic /scan.
 [https://wiki.recessim.com/view/Neato_XV-11#LIDAR_Sensor](https://wiki.recessim.com/view/Neato_XV-11#LIDAR_Sensor)
 
 [https://github.com/mjstn/xv_11_driver](https://github.com/mjstn/xv_11_driver)
+
+[https://notblackmagic.com/bitsnpieces/lidar-modules/](https://notblackmagic.com/bitsnpieces/lidar-modules/)
